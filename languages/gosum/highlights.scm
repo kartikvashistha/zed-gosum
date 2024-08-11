@@ -5,20 +5,19 @@
   "pre"
   "rc"
   "+incompatible"
-]  @keyword
+] @keyword
 
-(module_path)   @string.special.url
 
+(module_path) @string @text.uri
 (module_version) @string.special
 
 (hash_version) @attribute
-
-(hash)  @string.special.symbol
+(hash) @symbol
 
 [
-  (number)
-  (number_with_decimal)
-  (hex_number)
+ (number)
+ (number_with_decimal)
+ (hex_number)
 ] @number
 
 (checksum
