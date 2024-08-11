@@ -1,0 +1,6 @@
+name = "Go Sum"
+grammar = "gosum"
+path_suffixes = ["sum"]
+line_comments = [""]
+autoclose_before = ""
+brackets = []

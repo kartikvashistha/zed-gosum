@@ -1,0 +1,12 @@
+id = "gosum"
+name = "Go Sum Highlighting"
+version = "0.0.1"
+schema_version = 1
+
+authors = ["Kartik Vashistha <kartikv.work@gmail.com>"]
+description = "Syntax highlighting for Go Checksum files."
+repository = "https://github.com/kartikvashistha/zed-gosum"
+
+[grammars.gosum]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-go-sum"
+commit = "e2ac513b2240c7ff1069ae33b2df29ce90777c11"
