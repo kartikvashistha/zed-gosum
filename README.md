@@ -1,2 +1,2 @@
 # zed-gosum
-Highlighting for Go Checksum files
+Highlighting extension for Go Checksum files in [Zed](https://zed.dev/).
